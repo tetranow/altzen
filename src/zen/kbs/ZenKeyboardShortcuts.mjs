@@ -810,6 +810,17 @@ class nsZenKeyboardShortcutsLoader {
         "zen-split-view-shortcut-unsplit"
       )
     );
+    newShortcutList.push(
+      new KeyShortcut(
+        "zen-ai-sidebar-toggle",
+        "X",
+        "",
+        ZEN_OTHER_SHORTCUTS_GROUP,
+        nsKeyShortcutModifiers.fromObject({ alt: true }),
+        "cmd_zenAIToggleSidebar",
+        "zen-ai-sidebar-shortcut-toggle"
+      )
+    );
 
     return newShortcutList;
   }
@@ -848,7 +859,7 @@ class nsZenKeyboardShortcutsLoader {
 }
 
 class nsZenKeyboardShortcutsVersioner {
-  static LATEST_KBS_VERSION = 19;
+  static LATEST_KBS_VERSION = 20;
 
   constructor() {}
 
@@ -1254,6 +1265,20 @@ class nsZenKeyboardShortcutsVersioner {
           break;
         }
       }
+    }
+
+    if (version < 20) {
+      data.push(
+        new KeyShortcut(
+          "zen-ai-sidebar-toggle",
+          "X",
+          "",
+          ZEN_OTHER_SHORTCUTS_GROUP,
+          nsKeyShortcutModifiers.fromObject({ alt: true }),
+          "cmd_zenAIToggleSidebar",
+          "zen-ai-sidebar-shortcut-toggle"
+        )
+      );
     }
 
     return data;

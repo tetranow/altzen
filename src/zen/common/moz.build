@@ -8,6 +8,11 @@ EXTRA_JS_MODULES += [
   "sys/ZenUIMigration.sys.mjs",
 ]
 
+FINAL_TARGET_FILES.actors += [
+  "actors/ZenAISidebarChild.sys.mjs",
+  "actors/ZenAISidebarParent.sys.mjs",
+]
+
 EXTRA_JS_MODULES.zen.ui += [
   "sys/ui/ZenProgressBar.sys.mjs",
   "sys/ui/ZenUIComponent.sys.mjs",

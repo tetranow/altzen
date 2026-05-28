@@ -3,50 +3,57 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/.
    -->
-<!-- TODO: Get a job -->
-<img src="./docs/assets/zen-dark.svg" width="100px" align="left">
 
-### `Zen Browser`
+<img src="./configs/branding/release/content/about-wordmark.svg" width="260" alt="AltZen by Tetra" />
 
-[![Downloads](https://img.shields.io/github/downloads/zen-browser/desktop/total.svg)](https://github.com/zen-browser/desktop/releases)
-[![Crowdin](https://badges.crowdin.net/zen-browser/localized.svg)](https://crowdin.com/project/zen-browser)
-[![Zen Release builds](https://github.com/zen-browser/desktop/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/zen-browser/desktop/actions/workflows/build.yml)
+### `AltZen by Tetra`
 
-Zen is a firefox-based browser with the aim of pushing your productivity to a new level!
+AltZen by Tetra is a Firefox-based browser built around a calmer, more intentional, AI-native browsing experience.
 
-<div flex="true">
-  <a href="https://zen-browser.app/download">
-    Download
+This repository currently tracks a custom fork of Zen Browser as the foundation for AltZen. The goal is to reshape that foundation into a more refined browser with native AI workflows, stronger focus, and a more deliberate visual identity.
+
+<div>
+  <a href="https://github.com/tetranow/altzen/actions">
+    Actions
   </a>
-  •
-  <a href="https://zen-browser.app">
-    Website
+  |
+  <a href="https://github.com/tetranow/altzen/issues">
+    Issues
   </a>
-  •
-  <a href="https://docs.zen-browser.app">
-    Documentation
-  </a>
-  •
-  <a href="https://zen-browser.app/release-notes/latest">
-    Release Notes
+  |
+  <a href="https://github.com/tetranow/altzen/discussions">
+    Discussions
   </a>
 </div>
 
-### Firefox Versions
+### Project Direction
 
-- [`Release`](https://zen-browser.app/download) - Is currently built using Firefox version `151.0.2`! 🚀
-- [`Twilight`](https://zen-browser.app/download?twilight) - Is currently built using Firefox version `RC 151.0.2`!
+- Native AI companion experiences that feel built into the browser, not bolted on.
+- A calmer visual language with AltZen branding throughout the product.
+- A personal but production-minded fork that can evolve into its own distinct browser.
+
+### Current Status
+
+- Core AltZen branding is being integrated across the product.
+- Native AI sidebar work is underway, beginning with provider-based workflows.
+- This repo is still close to the upstream Zen structure, but is actively being reshaped.
 
 ### Contributing
 
-If you'd like to report a bug, please do so on our [GitHub Issues page](https://github.com/zen-browser/desktop/issues/) and for feature requests, you can use [GitHub Discussions](https://github.com/zen-browser/desktop/discussions).
+If you want to report a bug or suggest an idea, use [Issues](https://github.com/tetranow/altzen/issues) or [Discussions](https://github.com/tetranow/altzen/discussions).
 
-Zen is an open-source project, and we welcome contributions from the community! Please take a look at the [contribution guidelines](./docs/contribute.md) before getting started!
+If you are contributing code, start with the existing project documentation in [docs/contribute.md](./docs/contribute.md).
 
-#### Partners
+### Upstream
 
-Thanks to all the partners of Zen for their support and contributions:
+AltZen is currently built on top of the open-source Zen Browser project:
+
+- Upstream repo: [zen-browser/desktop](https://github.com/zen-browser/desktop)
+
+### Partners
+
+Thanks to the partners supporting the broader browser foundation:
 
 <a href="https://blacksmith.sh">
-  <img src="./docs/assets/blacksmith-yellow.png" width="350px"/>
+  <img src="./docs/assets/blacksmith-yellow.png" width="350" alt="Blacksmith" />
 </a>

@@ -19,6 +19,24 @@ let JSPROCESSACTORS = {};
  * available at https://firefox-source-docs.mozilla.org/dom/ipc/jsactors.html
  */
 let JSWINDOWACTORS = {
+  ZenAISidebar: {
+    parent: {
+      esModuleURI: "resource:///actors/ZenAISidebarParent.sys.mjs",
+    },
+    child: {
+      esModuleURI: "resource:///actors/ZenAISidebarChild.sys.mjs",
+      events: {
+        DOMContentLoaded: {},
+      },
+    },
+    remoteTypes: ["web"],
+    matches: [
+      "https://t3.chat/*",
+      "https://venice.ai/*",
+      "https://chatgpt.com/*",
+      "https://claude.ai/*",
+    ],
+  },
   ZenModsMarketplace: {
     parent: {
       esModuleURI: "resource:///actors/ZenModsMarketplaceParent.sys.mjs",

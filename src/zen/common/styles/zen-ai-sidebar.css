@@ -1,0 +1,135 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+:root {
+  color-scheme: light;
+  --zen-ai-bg: linear-gradient(180deg, #f5eddc 0%, #efe3cd 100%);
+  --zen-ai-ink: #241c14;
+  --zen-ai-muted: #6b5e50;
+  --zen-ai-line: rgba(83, 61, 34, 0.18);
+  --zen-ai-surface: rgba(255, 250, 242, 0.78);
+  --zen-ai-action: #1e6557;
+  --zen-ai-action-press: #184f45;
+  font-family:
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  color: var(--zen-ai-ink);
+  background: var(--zen-ai-bg);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(192, 143, 76, 0.18), transparent 32%),
+    var(--zen-ai-bg);
+}
+
+.zen-ai-shell {
+  min-height: 100vh;
+  padding: 18px 16px 24px;
+  display: grid;
+  gap: 14px;
+}
+
+.zen-ai-kicker {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--zen-ai-muted);
+}
+
+h1 {
+  margin: 0;
+  font:
+    700 30px/1.02 Georgia,
+    serif;
+}
+
+.zen-ai-intro,
+.zen-ai-copy,
+.zen-ai-footnote,
+.zen-ai-status {
+  margin: 0;
+  line-height: 1.5;
+  color: #45372c;
+}
+
+.zen-ai-band {
+  padding: 14px 0 0;
+  border-top: 1px solid var(--zen-ai-line);
+}
+
+.zen-ai-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--zen-ai-muted);
+}
+
+.zen-ai-select,
+.zen-ai-action {
+  width: 100%;
+  border: 1px solid var(--zen-ai-line);
+  background: var(--zen-ai-surface);
+  color: var(--zen-ai-ink);
+}
+
+.zen-ai-select {
+  padding: 12px 14px;
+  font-size: 15px;
+}
+
+.zen-ai-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.zen-ai-action {
+  padding: 13px 14px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  transition:
+    background-color 120ms ease,
+    border-color 120ms ease,
+    color 120ms ease;
+}
+
+.zen-ai-action:hover,
+.zen-ai-action:focus-visible {
+  background: color-mix(in srgb, var(--zen-ai-action) 12%, white);
+  border-color: color-mix(in srgb, var(--zen-ai-action) 44%, white);
+  outline: none;
+}
+
+.zen-ai-action:active {
+  background: color-mix(in srgb, var(--zen-ai-action-press) 18%, white);
+}
+
+.zen-ai-status {
+  min-height: 2.8em;
+  padding-top: 2px;
+  color: var(--zen-ai-action-press);
+}
+
+.zen-ai-footnote strong {
+  font-weight: 800;
+}

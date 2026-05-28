@@ -9,6 +9,7 @@
         content/browser/ZenStartup.mjs                                          (../../zen/common/modules/ZenStartup.mjs)
         content/browser/ZenUpdates.mjs                                          (../../zen/common/modules/ZenUpdates.mjs)
         content/browser/ZenUIManager.mjs                                        (../../zen/common/modules/ZenUIManager.mjs)
+        content/browser/zen-components/ZenAISidebar.mjs                         (../../zen/common/modules/ZenAISidebar.mjs)
         content/browser/zen-components/ZenCommonUtils.mjs                       (../../zen/common/modules/ZenCommonUtils.mjs)
         content/browser/zen-components/ZenSessionStore.mjs                      (../../zen/common/modules/ZenSessionStore.mjs)
         content/browser/zen-components/ZenHasPolyfill.mjs                       (../../zen/common/modules/ZenHasPolyfill.mjs)
@@ -31,7 +32,10 @@
         content/browser/zen-styles/zen-popup.css                                (../../zen/common/styles/zen-popup.css)
         content/browser/zen-styles/zen-branding.css                             (../../zen/common/styles/zen-branding.css)
         content/browser/zen-styles/zen-sidebar-notification.css                 (../../zen/common/styles/zen-sidebar-notification.css)
+        content/browser/zen-styles/zen-ai-sidebar.css                           (../../zen/common/styles/zen-ai-sidebar.css)
 
         content/browser/zen-styles/zen-panels/bookmarks.css                     (../../zen/common/styles/zen-panels/bookmarks.css)
         content/browser/zen-styles/zen-panels/print.css                         (../../zen/common/styles/zen-panels/print.css)
         content/browser/zen-styles/zen-panels/dialog.css                        (../../zen/common/styles/zen-panels/dialog.css)
+        content/browser/zen-ai/launcher.xhtml                                   (../../zen/common/ai-sidebar/launcher.xhtml)
+        content/browser/zen-ai/launcher.js                                      (../../zen/common/ai-sidebar/launcher.js)

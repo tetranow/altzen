@@ -12,6 +12,7 @@
     "resource:///modules/zen/ZenSpaceManager.mjs",
     "chrome://browser/content/zen-components/ZenCompactMode.mjs",
     "chrome://browser/content/ZenUIManager.mjs",
+    "chrome://browser/content/zen-components/ZenAISidebar.mjs",
     "chrome://browser/content/zen-components/ZenMods.mjs",
     "chrome://browser/content/zen-components/ZenKeyboardShortcuts.mjs",
     "chrome://browser/content/zen-components/ZenSessionStore.mjs",

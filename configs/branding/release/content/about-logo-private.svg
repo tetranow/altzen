@@ -1,1 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256"><defs><style>.h{filter:url(#f);}.i{fill:#202020;}.j{fill:#f2f0e3;}</style><filter id="f" x="-.4" y="1.68" width="256.8" height="256.8" filterUnits="userSpaceOnUse"><feOffset dx="0" dy="2"/><feGaussianBlur result="g" stdDeviation="2"/><feFlood flood-color="#000" flood-opacity=".5"/><feComposite in2="g" operator="in"/><feComposite in="SourceGraphic"/></filter></defs><g class="h"><rect class="i" x="5.75" y="5.7717" width="244.5" height="244.5" rx="46" ry="46"/></g><path class="j" d="M165.9933,146.3748c-15.6335,0-28.7244,11.028-31.9466,25.7088h-12.0935c-3.2222-14.6808-16.313-25.7088-31.9466-25.7088-18.0431,0-32.7232,14.68-32.7232,32.7232s14.68,32.7232,32.7232,32.7232c15.6335,0,28.7244-11.028,31.9466-25.7088h12.0935c3.2222,14.6808,16.313,25.7088,31.9466,25.7088,18.0431,0,32.7232-14.68,32.7232-32.7232s-14.68-32.7232-32.7232-32.7232ZM90.0067,197.7925c-10.3086,0-18.6945-8.3859-18.6945-18.6945s8.3859-18.6945,18.6945-18.6945,18.6945,8.3859,18.6945,18.6945-8.3859,18.6945-18.6945,18.6945ZM165.9933,197.7925c-10.3086,0-18.6945-8.3859-18.6945-18.6945s8.3859-18.6945,18.6945-18.6945,18.6945,8.3859,18.6945,18.6945-8.3859,18.6945-18.6945,18.6945Z"/><path class="j" d="M214.577,115.6777h-21.8838l-9.2611-65.4244c-.3037-2.145-1.5845-4.0301-3.4665-5.1073-1.882-1.0741-4.1554-1.2212-6.1595-.3914l-45.8062,18.9293-45.8062-18.9293c-2.0041-.8298-4.2775-.6826-6.1595.3914-1.882,1.0772-3.1627,2.9623-3.4665,5.1073l-9.2611,65.4244h-21.8838c-3.8735,0-7.0143,3.1408-7.0143,7.0143s3.1408,7.0143,7.0143,7.0143h173.1541c3.8735,0,7.0143-3.1408,7.0143-7.0143s-3.1408-7.0143-7.0143-7.0143ZM85.1906,61.1725l40.1289,16.5839c1.716.7077,3.645.7077,5.361,0l40.1289-16.5839,7.7142,54.5052h-101.0473l7.7142-54.5052Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177.23 116.52">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-4 {
+        font-family: NeuePowerTrial-Heavy, 'Neue Power Trial';
+        font-size: 48px;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="M53.17,60.83v1.05c-17.2,5.14-26.36,24.51-31.04,44.47H0v-20.05c11.52-13.49,28.47-23.72,53.17-25.46Z"/>
+    <rect class="cls-3" x="0" y="0" width="53.17" height="60.83"/>
+  </g>
+  <text class="cls-4" transform="translate(49.82 106.34) scale(.93 1)"><tspan x="0" y="0">ri</tspan><tspan class="cls-5" x="29.33" y="0">v</tspan><tspan class="cls-1" x="57.17" y="0">a</tspan><tspan class="cls-2" x="86.16" y="0">t</tspan><tspan x="107.18" y="0">e</tspan></text>
+</svg>

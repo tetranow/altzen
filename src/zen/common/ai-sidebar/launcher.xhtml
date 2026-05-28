@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AltZen by Tetra AI Sidebar</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="chrome://browser/content/zen-styles/zen-ai-sidebar.css"
+    />
+  </head>
+  <body>
+    <main class="zen-ai-shell">
+      <p class="zen-ai-kicker">AltZen by Tetra AI</p>
+      <h1>Keep your place. Ask from the sidebar.</h1>
+      <p class="zen-ai-intro">
+        Pick a provider, then choose what you want to do with the page or the
+        text you selected.
+      </p>
+
+      <section class="zen-ai-band" aria-labelledby="zen-ai-provider-label">
+        <label id="zen-ai-provider-label" class="zen-ai-label" for="provider">
+          Provider
+        </label>
+        <select id="provider" class="zen-ai-select"></select>
+      </section>
+
+      <section class="zen-ai-band zen-ai-actions" aria-label="Actions">
+        <button type="button" class="zen-ai-action" data-action="summarize">
+          Summarize this
+        </button>
+        <button type="button" class="zen-ai-action" data-action="explain">
+          Explain this
+        </button>
+        <button type="button" class="zen-ai-action" data-action="ask">
+          Ask about this page
+        </button>
+      </section>
+
+      <section class="zen-ai-band">
+        <p class="zen-ai-label">Selection</p>
+        <p id="selection-state" class="zen-ai-copy">
+          No selected text yet. Select part of the page to target it precisely.
+        </p>
+      </section>
+
+      <p id="status" class="zen-ai-status" aria-live="polite"></p>
+
+      <p class="zen-ai-footnote">
+        Press <strong>Alt+X</strong> again to close.
+      </p>
+    </main>
+
+    <script src="chrome://browser/content/zen-ai/launcher.js"></script>
+  </body>
+  </html>
