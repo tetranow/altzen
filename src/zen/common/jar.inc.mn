@@ -15,6 +15,7 @@
         content/browser/zen-components/ZenHasPolyfill.mjs                       (../../zen/common/modules/ZenHasPolyfill.mjs)
         content/browser/zen-components/ZenSidebarNotification.mjs               (../../zen/common/modules/ZenSidebarNotification.mjs)
         content/browser/zen-components/ZenMenubar.mjs                           (../../zen/common/modules/ZenMenubar.mjs)
+        content/browser/zen-components/ZenTetraID.mjs                           (../../zen/common/modules/ZenTetraID.mjs)
 
         content/browser/zen-components/ZenEmojisData.min.mjs                    (../../zen/common/emojis/ZenEmojisData.min.mjs)
         content/browser/zen-components/ZenEmojiPicker.mjs                       (../../zen/common/emojis/ZenEmojiPicker.mjs)
@@ -33,6 +34,7 @@
         content/browser/zen-styles/zen-branding.css                             (../../zen/common/styles/zen-branding.css)
         content/browser/zen-styles/zen-sidebar-notification.css                 (../../zen/common/styles/zen-sidebar-notification.css)
         content/browser/zen-styles/zen-ai-sidebar.css                           (../../zen/common/styles/zen-ai-sidebar.css)
+        content/browser/zen-styles/zen-tetraid.css                              (../../zen/common/styles/zen-tetraid.css)
 
         content/browser/zen-styles/zen-panels/bookmarks.css                     (../../zen/common/styles/zen-panels/bookmarks.css)
         content/browser/zen-styles/zen-panels/print.css                         (../../zen/common/styles/zen-panels/print.css)
